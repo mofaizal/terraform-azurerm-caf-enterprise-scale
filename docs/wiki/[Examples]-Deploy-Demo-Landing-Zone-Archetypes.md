@@ -19,6 +19,12 @@ These demo Landing Zone archetypes provides a good way to learn about archetypes
 ## Example root module
 
 > NOTE: Although only `root_parent_id` is required, we recommend setting `root_id` and `root_name` to something more meaningful. Changing `root_id` will result in the entire deployment to be re-provisioned.
+-	To deploy default configuration + landing zone archetype use below **`main.tf`**. 
+-	To deploy incremental, edit your existing default configuration **`main.tf`** and add below line after root_name = "My Organization"
+```hcl
+# Including the additional Management Groups used for demonstrating the Enterprise-scale Landing Zone archetypes:
+  deploy_demo_landing_zones = true
+```
 
 To keep things simple, the root module for this example is based on a single file:
 

@@ -188,6 +188,10 @@ For more details about working with archetype definitions, please refer to the [
 
 ![Deploy-Default-Configuration](./media/examples-deploy-custom-demo-landing-zone-archetypes.png)
 
+## Policy Assignment compliance
+
+![Deploy-Default-Configuration-Policy](./media/examples-deploy-custom-demo-landing-zone-archetypes-policy.PNG)
+
 You have successfully created the default Management Group resource hierarchy including additional Management Groups for demonstrating custom Landing Zone archetypes, along with the recommended Azure Policy and Access control (IAM) settings for Enterprise-scale.
 
 > TIP: The exact number of resources created depends on the module configuration, but you can expect upwards of 200 resources to be created by this module for a default installation.
